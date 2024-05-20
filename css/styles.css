@@ -1,0 +1,55 @@
+/* padding so page body isn't covered by navbar or footer */
+body { 
+    padding-top: 100px; 
+    padding-bottom: 200px; 
+}
+
+/* spacing between search bar and navbar elements */
+.navbar-nav > li, .navbar-nav  > .form-inline {
+  padding:5px 10px;
+}
+
+/* setting size and alignment of images for listings */
+.product-image {
+    width: auto;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+
+.dropbtn {
+  background-color:#f8f9fa;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+
+
+
+
+/* .centered {
+    margin: auto; max-width: 300px;
+} */
+
+ 
